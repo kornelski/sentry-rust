@@ -42,7 +42,7 @@ backtrace = { version = "0.3.43", optional = true }
 url = { version = "2.1.1", optional = true }
 failure = { version = "0.1.6", optional = true }
 log = { version = "0.4.8", optional = true, features = ["std"] }
-sentry-types = { version = "0.13.3", git = "https://github.com/kornelski/rust-sentry-types" }
+sentry-types = { version = "0.13.3", git = "https://github.com/getsentry/rust-sentry-types" }
 env_logger = { version = "0.7.1", optional = true }
 reqwest = { version = "0.10.1", optional = true, default-features = false, features = ["blocking", "json", "rustls-tls"] }
 lazy_static = "1.4.0"
